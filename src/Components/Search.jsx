@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Search = () => {
     const [input, setInput] = useState("");
-    const [search, setSearch] = useState("");
+    const [search, setSearch] = useState("captain");
 
     const handleClick = () => {
         setSearch(input);
