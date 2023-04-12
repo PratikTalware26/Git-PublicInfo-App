@@ -1,0 +1,52 @@
+.user-card{
+    width: 500px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px 3px #ccc;
+    background-color: white;
+    transition: width 1s;
+}
+.user-card:hover{
+    transform: scale(1.05);
+    transition: all 1s;
+}
+.img-cont{
+    /* text-align: center; */
+    position: relative;
+}
+.img-back{
+    height: 100px;
+    background: pink;
+}
+.user-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.user-details{
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.designation{
+    margin-top: 14px;
+}
+.details{
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 1px solid #bebebe;
+    margin: 20px auto;
+    padding: 20px 10px;
+    border-top: 3px solid pink;
+    background: #f0ededed;
+    border-radius: 4px;
+}

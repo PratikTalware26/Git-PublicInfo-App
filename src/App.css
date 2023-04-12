@@ -1,26 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Hind+Siliguri&family=Montserrat:wght@200;400&family=Poppins:wght@400;500&family=Roboto:ital,wght@1,100&display=swap'); */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cedarville Cursive', cursive;
 }
 .App{
-    min-height: 100vh;
+    min-height: 98vh;
+    background: aliceblue;
+    padding-top: 10px;
 }
 .search-head-cont{
     text-align: center;
-    /* margin: 0 14px; */
+    margin: 0 14px;
     padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px 1px #ccc;
+    background-color: white;
 }
 .app-header{
     margin-bottom: 10px;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.inp-cont{
+    margin: 20px;
 }
 .search-inp{
     width: 400px;
     height: 40px;
+    padding-left: 15px;
 }
 .search-btn{
     height: 40px;
     padding: 0 16px;
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+    border: none;
+    
 }
 .user-card{
     width: 500px;
@@ -32,7 +50,7 @@
     /* text-align: center; */
     position: relative;
 }
-.user-img{
+/* .user-img{
     width: 140px;
     height: 140px;
     border-radius: 50%;
@@ -61,4 +79,4 @@
     margin: 20px auto;
     padding: 20px 10px;
     border-top: 3px solid blue;
-}
+} */
